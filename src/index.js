@@ -9,17 +9,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.limecocoa.eu.org": dockerHub,
-  "quay.limecocoa.eu.org": "https://quay.io",
-  "gcr.limecocoa.eu.org": "https://gcr.io",
-  "k8s-gcr.limecocoa.eu.org": "https://k8s.gcr.io",
-  "k8s.limecocoa.eu.org": "https://registry.k8s.io",
-  "ghcr.limecocoa.eu.org": "https://ghcr.io",
-  "cloudsmith.limecocoa.eu.org": "https://docker.cloudsmith.io",
-  "ecr.limecocoa.eu.org": "https://public.ecr.aws",
+  "docker.limecocoa.me": dockerHub,
+  "quay.limecocoa.me": "https://quay.io",
+  "gcr.limecocoa.me": "https://gcr.io",
+  "k8s-gcr.limecocoa.me": "https://k8s.gcr.io",
+  "k8s.limecocoa.me": "https://registry.k8s.io",
+  "ghcr.limecocoa.me": "https://ghcr.io",
+  "cloudsmith.limecocoa.me": "https://docker.cloudsmith.io",
+  "ecr.limecocoa.me": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.limecocoa.eu.org": dockerHub,
+  "docker-staging.limecocoa.me": dockerHub,
 };
 
 function routeByHosts(host) {
