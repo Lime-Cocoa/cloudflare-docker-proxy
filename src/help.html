@@ -94,6 +94,7 @@
 EOF
 # 配置完后需要重启 Docker 服务
 sudo systemctl restart docker
+sudo systemctl daemon-reload
 </code></pre>
         <p>使用该代理从不同的镜像仓库拉取镜像，请参考以下命令：</p>
         <pre><code id="commands">
